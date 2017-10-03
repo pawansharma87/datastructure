@@ -18,4 +18,6 @@ Input: n = "534976"
 Output: "536479"
 
 ```
+### Following are few observations about the next greater number.
+	1. If all digits sorted in descending order, then output is always “Not Possible”. For example, 4321.
 
