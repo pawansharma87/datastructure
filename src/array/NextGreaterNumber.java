@@ -23,10 +23,11 @@ public class NextGreaterNumber {
 				break;
 			}
 		}
-		if (i == 0)
+		if (i == 0){ 
+			//System.out.println("If all digits sorted in descending order, then output is always “Not Possible”. For example, 4321.");
 			System.out.println("Impossible");
-		else if (i + 1 == digits.length) {
-			System.out.println("Swap last digits");
+		}else if (i + 1 == digits.length) {
+			System.out.println("If all digits are sorted in ascending order, then we need to swap last two digits. For example, 1234.");
 			swap(digits, i-1, digits.length-1);
 		} else {
 			System.out.println(digits[i - 1]);
